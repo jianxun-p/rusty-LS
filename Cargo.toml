@@ -1,0 +1,13 @@
+[package]
+name = "rusty_ls"
+version = "0.0.1"
+edition = "2021"
+authors = ["Jianxun Pan"]
+
+[dependencies]
+rand = "0.8"
+bufstream = "0.1"
+cryptrust = { git = "https://github.com/jianxun-p/cryptrust.git"}
+digest = {version = "0.10", features = ["core-api"]}
+hmac = "0.12"
+sha2 = "0.10"
